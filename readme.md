@@ -1,3 +1,31 @@
+**Create ".env" file **
+
+```
+# ---- Pinecone ----
+PINECONE_API_KEY=add your key
+PINECONE_ENVIRONMENT=us-east-1
+PINECONE_INDEX_NAME=add your index name
+PINECONE_CLOUD=aws
+PINECONE_REGION=us-east-1
+PINECONE_NAMESPACE=default
+
+# ---- Hugging Face ----
+HUGGINGFACEHUB_API_TOKEN=add your token
+HF_MODEL_ID=mistralai/Mistral-7B-Instruct-v0.2
+
+# ---- Embeddings ----
+HF_EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+
+# ---- Retrieval ----
+K_RETRIEVAL=4
+
+# ---- Local Models ----
+LOCAL_LLM_MODEL=google/flan-t5-base
+LOCAL_EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+
+```
+
+
 1. Create a virtual environment
 
 ```
